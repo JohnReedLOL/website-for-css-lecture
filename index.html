@@ -2,115 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="A demo site to learn HTML">
-    <meta name="author" content="Teacher John Michael Reed">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>This is a title</title>
+    <title>Learn CSS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
-  <body>
-    <header>
-      <h1>This is a header. It is covered by the nav bar.</h1>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <p> This is in the nav bar. It stays at the top. For the slides that go with this site, visit <a href="https://docs.google.com/presentation/d/1kNwcwzdXSUS-nX2bbsOJryg_qTlpJiLqSuXru6hk8_I/edit?usp=sharing">Google Slides</a></p>
-    </nav>
-
-      <!-- These are HTML headings-->
-      <h1>Heading level 1~~~~!</h1>
-      <h2>Heading level 2</h2>
-      <h3>Heading level 3</h3>
-      <h4>Heading level 4</h4>
-      <h5>Heading level 5</h5>
-      <h6>Heading level 6</h6>
-
-      <div style="background-color: lightblue;">
-        <p>Hello world! This paragraph is in a light blue div!</p>
-      </div>
-      <p>This is another paragraph. There is a line break after it.</p>
-      <br>
-      <p>This is a third paragraph. There was a line break before it. There will be a horizontal ruled line after it.</p>
-      <hr>
-      <a href="https://www.google.com"> This is a link to Google. </a>
-      <p>On the next line will be an image of Shrek and Donkey from the movie Shrek:</p>
-      <img src="https://www.dreamworks.com/storage/movies/shrek/gallery/shrek-gallery-1.jpg" height="120">
-      <p>Here is an embedded song from the website Soundcloud. It is embedded as an iframe: </p>
-      <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A165303714&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/darling-gypsum" title="Darling Gypsum" target="_blank" style="color: #cccccc; text-decoration: none;">Darling Gypsum</a> · <a href="https://soundcloud.com/darling-gypsum/long-time-traveller" title="Long Time Traveller (By The Wailing Jennys)" target="_blank" style="color: #cccccc; text-decoration: none;">Long Time Traveller (By The Wailing Jennys)</a></div>
-      <p>Here is an embedded YouTube video that teaches HTML. It is embedded as an iframe: </p>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HD13eq_Pmp8?si=jcTD34h7eNZ1Pf_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    
-    <p>This is normal text</p>
-    <!-- Note: These can be done with CSS -->
-    <p>This is <b>bold</b> text</p>
-    <p>This is <i>italic</i> text</p>
-    <p>This is <big>big</big> text</p>
-    <p>This is <small>small</small> text</p>
-    <p>This is <sub>subscript</sub> text</p>
-    <p>This is <sup>superscript</sup> text</p>
-    <p>This is <ins>inserted</ins> text</p>
-    <p>This is <del>deleted</del> text</p>
-    <p>This is <mark>marked</mark> text</p>
-    
-    <h4>Unordered List</h4>
-    <ul>
-      <li>pizza dough</li>
-      <li>tomato sauce</li>
-      <li>cheese</li>
-      <li>toppings</li>
-    </ul>
-
-    <h4>Ordered List</h4>
-    <ol>
-      <li>eat breakfast</li>
-      <li>take shower</li>
-    </ol>
-
-    <table>
-      <tr bgcolor="grey">
-        <th>Sunday</th>
-        <th>Monday</th>
-        <th>Tueday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-      </tr>
-      <tr bgcolor="lightgrey">
-        <td>Closed</td>
-        <td>9-5</td>
-        <td>9-5</td>
-        <td>9-5</td>
-        <td>9-5</td>
-        <td>9-5</td>
-        <td>Closed</td>
-      </tr>
-    </table>
-
-    <!-- Colored text (introducing style, CSS)-->
-    <h1 style="color: red">Hello!</h1>
-    <h1 style="color: rgb(5, 240, 232)">Hello!</h1>
-    <h1 style="color: #28f005">Hello!</h1>
-
-    <div style="background-color: #444444;">
-      <h1 style="color: #28f005">Sentence with a <span style="color:red">red span</span> in it and a dark grey div around it!</h1>
-    </div>
-
-    <button onclick="doSomething()">Click me!</button>
-    <p id="test">Hello</p>
-
-
-    <footer>
-      <div class="container text-center">
-        <p>This is the footer. It stays at the bottom.</p>
-      </div>
-    </footer>
-
-    <script>
-      function doSomething(){
-        document.getElementById("test").innerHTML = "Bye!";
-      }
-    </script>
-
+  <body style="margin: 6px;">
+    <h1 class="text-center">Links to learn CSS lessons</h1>
+    <p class="lead text-center">This lesson on CSS is made up on many mini-lessons, each at its own link.</p>
+    <h2>Mini-lesson 1: Inline CSS</h2>
+    <p><a href='inlineCSS.html'>- Inline CSS</a></p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
